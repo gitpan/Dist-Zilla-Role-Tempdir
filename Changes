@@ -1,5 +1,11 @@
 Revision history for Dist-Zilla-Role-Tempdir
 
+0.01022319 2010-06-02 06:03:23 Pacific/Auckland
+          Updated synopsis to recommend OO way.
+          Tests added for OO mode.
+          Replaced hash with a more pragmatic object. ( Backwards compatible ).
+          Fix tests relying on unixisms on Win(64/32)
+
 0.01021401 2010-05-23 12:16:50 Pacific/Auckland
           use @KENTNL
           upgrade to Dist::Zilla 2

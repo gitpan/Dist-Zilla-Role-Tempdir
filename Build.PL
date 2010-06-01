@@ -12,7 +12,6 @@ my %module_build_args = (
     'Dist::Zilla::Tester' => '0',
     'File::Find' => '0',
     'Module::Build' => '0.3601',
-    'Moose' => '0',
     'Test::Kwalitee' => '0',
     'Test::More' => '0',
     'Test::Perl::Critic' => '0'
@@ -25,11 +24,12 @@ my %module_build_args = (
     'Kent Fredric <kentnl@cpan.org>'
   ],
   'dist_name' => 'Dist-Zilla-Role-Tempdir',
-  'dist_version' => '0.01021401',
+  'dist_version' => '0.01022319',
   'license' => 'perl',
   'module_name' => 'Dist::Zilla::Role::Tempdir',
   'recommends' => {},
   'requires' => {
+    'Carp' => '0',
     'Digest::SHA' => '5.47',
     'Digest::base' => '1.16',
     'Dist::Zilla' => '2.0',
@@ -41,6 +41,7 @@ my %module_build_args = (
     'Moose' => '0.92',
     'Moose::Role' => '0',
     'Path::Class' => '0.17',
+    'Scalar::Util' => '0',
     'namespace::autoclean' => '0.09'
   },
   'script_files' => []
