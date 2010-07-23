@@ -3,7 +3,7 @@ use warnings;
 
 package Dist::Zilla::Tempdir::Item;
 BEGIN {
-  $Dist::Zilla::Tempdir::Item::VERSION = '0.01022319';
+  $Dist::Zilla::Tempdir::Item::VERSION = '0.01027622';
 }
 
 # ABSTRACT: A result object for things that DO() DZ::R::Tempdir;
@@ -96,7 +96,7 @@ Dist::Zilla::Tempdir::Item - A result object for things that DO() DZ::R::Tempdir
 
 =head1 VERSION
 
-version 0.01022319
+version 0.01027622
 
 =head1 SYNOPSIS
 
@@ -191,7 +191,7 @@ sets the state to 'deleted'
 
 =head1 AUTHOR
 
-  Kent Fredric <kentnl@cpan.org>
+Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
